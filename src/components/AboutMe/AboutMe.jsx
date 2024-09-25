@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <div>
-      <p>I&apos;m a simple person. I see Emojis, I write reviews.</p>
+      <p>Eu sou uma pessoa simples. Eu vejo Emojis, eu escrevo avaliações.</p>
     </div>
   );
 }

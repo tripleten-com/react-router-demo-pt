@@ -1,10 +1,10 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 
-import Header from "../Header/Header";
-import Dashboard from "../Dashboard/Dashboard";
-import Reviews from "../Reviews/Reviews";
-import AboutMe from "../AboutMe/AboutMe";
-import "./App.css";
+import Header from './Header/Header';
+import Dashboard from './Dashboard/Dashboard';
+import Reviews from './Reviews/Reviews';
+import AboutMe from './AboutMe/AboutMe';
+import './App.css';
 
 function App() {
   return (
