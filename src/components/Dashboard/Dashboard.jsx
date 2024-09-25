@@ -1,12 +1,10 @@
-import "./Dashboard.css";
+import './Dashboard.css';
 
 function Dashboard() {
   return (
     <div className="dashboard">
-      <h1>Emoji Critic — All About Emojis</h1>
-      <p>
-        The #1 Destination for Emoji Reviews on the World Wide Web Since 2020!
-      </p>
+      <h1>Emoji Critic — Tudo sobre Emojis</h1>
+      <p>O lugar n.º 1 para avaliações de emojis na Internet desde 2020!</p>
     </div>
   );
 }
