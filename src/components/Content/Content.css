@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-/* MODIFIERS IN LAYOUT */
+/* MODIFICADORES NO LAYOUT */
 
 .content_type_justified > div {
     display: flex;
@@ -27,7 +27,7 @@
     justify-content: center;
 }
 
-/* TAGS IN CONTENT */
+/* TAGS NO CONTEÚDO */
 
 .content .wrapper {
     display: flex;

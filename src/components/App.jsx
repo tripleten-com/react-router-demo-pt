@@ -1,35 +1,34 @@
-import { useEffect, useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
-import Header from "../Header/Header";
-import Dashboard from "../Dashboard/Dashboard";
-import Reviews from "../Reviews/Reviews";
-import Review from "../Review/Review";
-import AboutMe from "../AboutMe/AboutMe";
-import Contact from "../AboutMe/Contact";
-import Hobbies from "../AboutMe/Hobbies";
-import MyStory from "../AboutMe/MyStory";
-import AboutUs from "../AboutUs/AboutUs";
-import SiteHistory from "../AboutUs/SiteHistory";
-import SiteMission from "../AboutUs/SiteMission";
-import "./App.css";
+import Header from './Header/Header';
+import Dashboard from './Dashboard/Dashboard';
+import Reviews from './Reviews/Reviews';
+import Review from './Review/Review';
+import AboutMe from './AboutMe/AboutMe';
+import Contact from './AboutMe/Contact';
+import Hobbies from './AboutMe/Hobbies';
+import MyStory from './AboutMe/MyStory';
+import AboutUs from './AboutUs/AboutUs';
+import SiteHistory from './AboutUs/SiteHistory';
+import SiteMission from './AboutUs/SiteMission';
+import './App.css';
 
 function App() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    // Fetch the review data from the server.
-    fetch("https://api.nomoreparties.co/emoji-critic-ens")
+    // Capture os dados da avaliação a partir do servidor.
+    fetch('https://api.nomoreparties.co/emoji-critic-ens')
       .then((res) => {
         return res.json();
       })
       .then((data) => {
-        // Pass the parsed response body to the setter function.
+        // Envie o corpo da resposta para a função setter.
         setReviews(data);
       })
       .catch(console.error);
-    // An empty dependency array means the hook only runs when
-    // component launches.
+    // Um array de dependência vazio significa que o hook é executado apenas quando o componente é iniciado.
   }, []);
   return (
     <div className="App">

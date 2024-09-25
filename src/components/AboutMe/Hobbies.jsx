@@ -4,7 +4,7 @@ function Hobbies() {
   return (
     <div className="about-content">
       <p>
-        In addition to my love of emoji criticism, I have a number of additional hobbies. For example, I love to travel to new places, reading science fiction, and ping pong. As a matter of fact, a few years ago, I won a major ping pong competition. Perhaps you heard about it.
+        Além de adorar críticas de emojis, tenho vários outros hobbies. Por exemplo, adoro viajar para novos lugares, ler sobre ficção científica e jogar pingue-pongue. Na verdade, há alguns anos atrás, ganhei uma competição importante de pingue-pongue. Talvez você tenha ouvido falar sobre ela.
       </p>
     </div>
   )
