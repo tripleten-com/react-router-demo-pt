@@ -4,13 +4,13 @@ import "./AboutUs.css";
 function AboutUs() {
   return (
     <div className="about-us">
-      <p>You can find out more information about our site here.</p>
+      <p>Encontre mais informações sobre nosso site aqui.</p>
       <ul>
         <li>
-          <Link to="mission">Our Mission</Link>
+          <Link to="mission">Nossa missão</Link>
         </li>
         <li>
-          <Link to="history">Site History</Link>
+          <Link to="history">História do site</Link>
         </li>
       </ul>
       <Outlet />
