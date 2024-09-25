@@ -6,16 +6,16 @@ function AboutMe() {
     <div className="about">
       <ul className="links">
         <li>
-          <Link to="my-story">My Story</Link>
+          <Link to="my-story">Minha história</Link>
         </li>
         <li>
           <Link to="hobbies">Hobbies</Link>
         </li>
         <li>
-          <Link to="contact">My Contact Info</Link>
+          <Link to="contact">Informações de contato</Link>
         </li>
       </ul>
-      <p>I&apos;m a simple person. I see Emojis, I write reviews.</p>
+      <p>Eu sou uma pessoa simples. Eu vejo Emojis, eu escrevo avaliações.</p>
       <Outlet />
     </div>
   );

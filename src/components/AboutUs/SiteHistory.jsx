@@ -3,10 +3,9 @@ import "./AboutContent.css";
 function SiteHistory() {
   return (
     <div className="about-content">
-      <h3>Site History</h3>
+      <h3>História do site</h3>
       <p>
-        This site was founded back in 2020 thanks to a generous donation from
-        Nana.
+        Este site foi lançado em 2020, graças a uma generosa doação por parte da Nana.
       </p>
     </div>
   );
