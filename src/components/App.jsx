@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     // Capture os dados da avaliação a partir do servidor.
-    fetch('https://api.nomoreparties.co/emoji-critic-ens')
+    fetch('https://emoji-critic.pt-br.tripleten-services.com/v1/reviews')
       .then((res) => {
         return res.json();
       })
