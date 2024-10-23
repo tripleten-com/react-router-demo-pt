@@ -6,7 +6,7 @@ function Logo() {
       <span role="img" aria-label="Logotipo do Emoji Critic">
         🤔
       </span>{" "}
-      Crítico de emojis
+      Emoji Critic
     </p>
   );
 }
